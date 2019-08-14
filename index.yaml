@@ -3,7 +3,33 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.2.2
-    created: "2019-08-14T21:05:56.134657516Z"
+    created: "2019-08-14T21:24:09.349934223Z"
+    description: This is the chart that I put in my Github repo that does not use
+      PVC.
+    digest: dd6904171a05c2d39f85ad1a167fc1261d701de2a3bd29505ab46954c6160639
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v1
+    appVersion: 5.2.2
+    created: "2019-08-14T21:24:09.348309031Z"
     description: This is the chart that I put in my Github repo.
     digest: ce277807c3d4428b4da5bb8ca8011acf1d794d4eaf0702def0c4bd8adc4620f1
     engine: gotpl
@@ -26,4 +52,4 @@ entries:
     urls:
     - wordpress-7.1.0.tgz
     version: 7.1.0
-generated: "2019-08-14T21:05:56.132483136Z"
+generated: "2019-08-14T21:24:09.346227787Z"
